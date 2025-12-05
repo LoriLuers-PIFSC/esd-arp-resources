@@ -1,0 +1,52 @@
+# main links
+main:
+  # - title: "Home"
+   # url: /
+  - title: "Methods"
+    url: /sops/
+  - title: "Access Data"
+    url: /accessdata/
+  - title: "Products"
+    url: /products/
+  - title: "About Us"
+    url: /about/
+
+docs:
+  - title: NCRMP Survey Methods
+    children:
+ #     - title: "Coral Demography"
+ #       url: /surveys/ctdh2o_survey_template
+      - title: "Benthic Cover"
+        url: /surveys/benthic_cover
+      - title: "Carbonate Budgets"
+        url: /surveys/carbonate_budgets
+      - title: "CTD - Water Sampling"
+        url: /surveys/ctdh2o
+      - title: "Fish SPC"
+        url: /surveys/fish_spc
+      - title: "SfM Photogrammetry"
+        url: /surveys/sfm
+      - title: "Subsurface Temperature Recorders (STR)"
+        url: /surveys/str 
+   #   - title: "Coral Demography"
+   #     url: /surveys/coral_demography 
+    #  - title: "Vital Rates"
+    #    url: /surveys/vital_rates
+
+#      - title: "Subsurface Temperature Recorders (STR)"
+#        url: /surveys/strs
+#      - title: "Carbonate budgets"
+#        url: /surveys/carbonate-budgets
+#  - title: CRCP - OTHER
+#    children:
+#      - title: "Land-based Sources of Pollution (LBSP)"
+#        url: /surveys/lbsp
+
+ # - title: Alt Templates
+ #   children: 
+ #     - title: "Survey template"
+ #       url: surveys/test_survey_single
+ #     - title: "Survey template alt wide"
+ #       url: surveys/test_survey
+ #     - title: "Fish SPC alt wide"
+ #       url: /docs/fish-spc

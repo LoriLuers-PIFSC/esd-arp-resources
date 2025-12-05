@@ -1,0 +1,159 @@
+---
+layout: single
+---
+<h1>{{ page.survey_type }}</h1>
+
+{{ page.survey_description }}
+
+<div class="survey-content">
+  <figure>
+    <img src="{{ page.main_image | relative_url }}" width="250" height="auto" align="right" hspace="10" vspace="10" />
+    <figcaption>{{ page.main_image_caption }}</figcaption>
+  <!-- You can add more content or structure for the survey -->
+
+
+
+<h3>How to download and use our data</h3>
+<p>{{ page.how_to_download }}</p>
+  </figure>
+
+</div>
+
+<div class="feature__wrapper">
+
+  
+  <div class="feature__item--left">
+    <div class="archive__item">
+      
+        <div class="archive__item-teaser">
+          <img src="{{ '/assets/images/default-sop.jpg' | relative_url }}" alt="sops">
+
+          
+        </div>
+      
+
+      <div class="archive__item-body">
+        
+          <h2 class="archive__item-title">SOPs</h2>
+        
+
+        
+          <div class="archive__item-excerpt">
+            <p> {{ page.sop_text }} </p>
+
+          </div>
+        
+
+        
+          <p><a href= "{{ page.url_sop }}" target = "_blank" class="btn btn--primary">Download</a></p>
+        
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+<div class="feature__wrapper">
+
+
+  <div class="feature__item--left">
+    <div class="archive__item">
+      
+        <div class="archive__item-teaser">
+          <img src="{{ '/assets/images/default-datasheets.jpg' | relative_url }}" alt="data sheets">
+          
+        </div>
+      
+
+      <div class="archive__item-body">
+        
+          <h2 class="archive__item-title">Data Sheets</h2>
+        
+
+        
+          <div class="archive__item-excerpt">
+            <p>{{ page.datasheets_text }}</p>
+
+          </div>
+        
+          <p><a href="https://github.com/noaa-pifsc/esd-arp-resources/tree/main{{ page.url_datasheets }}" target="_blank" class="btn btn--primary">Download</a></p>
+
+        
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+<div class="feature__wrapper">
+
+
+  <div class="feature__item--left">
+    <div class="archive__item">
+      
+        <div class="archive__item-teaser">
+          <img src="{{ '/assets/images/default-rawdata.jpg' | relative_url }}" alt="access raw data">
+          
+        </div>
+      
+
+      <div class="archive__item-body">
+        
+          <h2 class="archive__item-title">Access Raw Data</h2>
+        
+
+        
+          <div class="archive__item-excerpt">
+            <p>{{ page.access_rawdata_text}}</p>
+
+          </div>
+        
+        <!--  <p><a href="https://example.com/sops" target = "_blank" class="btn btn--primary">Download</a></p>  -->  
+
+        
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+<div class="feature__wrapper">
+
+
+  <div class="feature__item--left">
+    <div class="archive__item">
+      
+        <div class="archive__item-teaser">
+          <img src="{{ '/assets/images/default-rcode.jpg' | relative_url }}" alt="R code">
+        </div>
+      
+
+      <div class="archive__item-body">
+        
+          <h2 class="archive__item-title">R Code for Processing</h2>
+        
+
+        
+          <div class="archive__item-excerpt">
+            <p>{{page.r_code_text}}</p>
+
+          </div>
+        
+       <!---   <p><a href="https://example.com/sops" target = "_blank" class="btn btn--primary">Download</a></p> -->
+
+        
+      </div>
+    </div>
+  </div>
+
+
+</div>
