@@ -18,7 +18,7 @@ feature_row5:
   alt: "pacific islands region survey area image"
   image_caption: "Credit: NOAA Fisheries"
   title: "Current Field Work"
-  excerpt: '2025 NCRMP will take place March ~ June in the Mariana Archipelago with an opportunistic stop in the Pacific Islands Heritage Marine National Monument at Wake Island. See our <a href = "https://www.fisheries.noaa.gov/gallery/back-marianas-monitoring-coral-reef-ecosystems-pacific">photo gallery</a> and download research mission flyers below.'
+  excerpt: 'We are preparing for 2026 surveys in American Samoa and the Pacific Islands Heritage Marine National Monument. Samples of our research mission flyer from 2025 are linked below.'
   buttons:
   - url: assets/images/NCRMP2025FLYER_508.pdf
     btn_label: "English"
